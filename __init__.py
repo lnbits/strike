@@ -1,6 +1,7 @@
 import asyncio
 
 from fastapi import APIRouter
+from fastapi.staticfiles import StaticFiles
 
 from lnbits.db import Database
 from lnbits.helpers import template_renderer
@@ -11,10 +12,16 @@ db = Database("ext_strike")
 
 strike_ext: APIRouter = APIRouter(prefix="/strike", tags=["strike"])
 
+strike_static_files = [
+    {
+        "path": "/strike/static",
+        "app": StaticFiles(directory="lnbits/extensions/strike/static"),
+        "name": "strike_static",
+    }
+]
 
 def strike_renderer():
     return template_renderer(["lnbits/extensions/strike/templates"])
-
 
 from .tasks import wait_for_paid_invoices
 from .views import *  # noqa
