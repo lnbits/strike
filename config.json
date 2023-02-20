@@ -1,7 +1,7 @@
 {
   "name": "Strike",
   "short_description": "Forward all received payments to your Strike account",
-  "icon": "flash_auto",
+  "tile": "/streamalerts/static/image/streamalerts.png",
   "contributors": [
     "marfusios"
   ]
