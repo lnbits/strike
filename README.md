@@ -1,6 +1,6 @@
 # Strike
 
-`Author:`<a href="https://github.com/Marfusios">`Marfusios`</a>, `<a href="https://github.com/leesalminen">`leesalminen`</a>
+`Author:`<a href="https://github.com/Marfusios">`Marfusios`</a>, <a href="https://github.com/leesalminen">`leesalminen`</a>
 
 ## Forward all received payments to your Strike account
 
