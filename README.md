@@ -1,5 +1,7 @@
 # Strike
 
+`Author:`<a href="https://github.com/Marfusios">`Marfusios`</a>, `<a href="https://github.com/leesalminen">`leesalminen`</a>
+
 ## Forward all received payments to your Strike account
 
 This extension provides an automated way to forward lightning payments received to your wallet to your Strike account in USD in near real-time.
