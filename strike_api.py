@@ -8,7 +8,7 @@ import httpx
 from pydantic import BaseModel, parse_obj_as
 from starlette.exceptions import HTTPException
 
-from lnbits.settings import STRIKE_API_ENDPOINT, STRIKE_API_KEY
+STRIKE_API_ENDPOINT="https://api.strike.me/"
 
 
 class StrikeCurrency(BaseModel):
