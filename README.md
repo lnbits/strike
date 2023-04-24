@@ -1,4 +1,5 @@
-# Strike
+# Strike - <small>[LNbits](https://github.com/lnbits/lnbits) extension</small>
+<small>For more about LNBits extension check [this tutorial](https://github.com/lnbits/lnbits/wiki/LNbits-Extensions)</small>
 
 `Author:`<a href="https://github.com/Marfusios">`Marfusios`</a>, <a href="https://github.com/leesalminen">`leesalminen`</a>
 
